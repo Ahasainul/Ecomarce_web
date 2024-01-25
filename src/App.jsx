@@ -10,6 +10,7 @@ import Routelayot from "./components/Routelayot";
 import Products from "./pages/Products";
 import Card from "./pages/Card";
 import Brands from "./pages/Brands";
+import Map from "./layouts/Map";
 
 
 
@@ -20,6 +21,7 @@ const router = createBrowserRouter(
     <Route path="/About" element={<Products/>}/>
     <Route path="/shop" element={<Card/>}/>
     <Route path="card" element={<Brands/>}/>
+    <Route path="/Contacts" element={<Map/>}/>
    </Route>
   )
 );

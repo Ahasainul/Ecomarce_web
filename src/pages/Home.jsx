@@ -8,6 +8,7 @@ import Offer from '../layouts/Offer'
 
 
 
+
 const Home = () => {
   return (
 <>
